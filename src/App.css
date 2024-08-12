@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-color: #46505a;
+    font-family: sans-serif;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a141e;
+    border-radius: 2rem;
+    width: 360px;
+    height: 600px;
+    border: 1px solid #464f59;
+}
+
+.container {
+    width: 85%;
+    height: 95%;
+    justify-content: center;
+}

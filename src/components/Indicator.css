@@ -1,0 +1,15 @@
+.indicator {
+    flex-grow: 1;
+    background-color: #1e283c;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.indicator h5 {
+    color: #8c96a0;
+    text-transform: uppercase;
+}
+
+.indicator h2 {
+    color: #f0f0f0;
+}

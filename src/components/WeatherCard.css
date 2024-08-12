@@ -1,0 +1,19 @@
+.weather-details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.weather-details img {
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+}
+
+.weather-tiles-row {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}

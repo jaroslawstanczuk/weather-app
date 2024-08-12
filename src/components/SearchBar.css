@@ -1,0 +1,33 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    height: 10%;
+}
+
+.search-bar > * {
+    font-size: 14px;
+}
+
+.search-bar input {
+    display: flex;
+    flex-grow: 4;
+    background-color: #1e283c;
+    border-radius: 1rem;
+    color: #f0f0f0;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    border: none;
+}
+
+.search-bar input:focus {
+    outline: none;
+}
+
+.search-bar span {
+    display: flex;
+    flex-grow: 1;
+    color: #f0f0f0;
+    justify-content: center;
+    cursor: pointer;
+}
